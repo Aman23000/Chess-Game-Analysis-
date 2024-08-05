@@ -33,6 +33,7 @@ This project aims to analyze large datasets using big data technologies, includi
 2. Ensure the dataset is accessible in the specified path in the pr3.py script. If using Google Cloud Storage, ensure the path is correctly set and the necessary permissions are in place.
 3. Run the pr3.py script : 
    python pr3.py
+4. Additionaly for the Visualization I have converted the results into pandas Dataframe and than plot the diagrams. 
 
 ### Data Source
 The dataset used in this project is stored in Google Cloud Platform (GCP). You can access the dataset from the following link: https://www.kaggle.com/datasets/joannpeeler/labeled-chess-positions-109m-csv-format/data
