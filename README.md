@@ -31,8 +31,8 @@ This project aims to analyze large datasets using big data technologies, includi
 ### Running the Project
 1. Navigate to the project directory.
 2. Ensure the dataset is accessible in the specified path in the pr3.py script. If using Google Cloud Storage, ensure the path is correctly set and the necessary permissions are in place.
-3. Run the pr3.py script : 
-   python pr3.py
+3. Run the spark_rdd.py script : 
+   python spark_rdd.py
 4. Additionaly for the Visualization I have converted the results into pandas Dataframe and than plot the diagrams. 
 
 ### Data Source
