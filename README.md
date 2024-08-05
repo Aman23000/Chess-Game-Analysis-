@@ -7,7 +7,7 @@ This project aims to analyze large datasets using big data technologies, includi
 - **pr3.py**: The main Python script for data processing and machine learning analysis using PySpark.
 - **Amanjain_ProjectReport.pdf**: The project report detailing the objectives, methodology, results, and conclusions.
 - **Presentation_amanjain_cs777 copy.pptx**: The PowerPoint presentation summarizing the project.
-- **plots, REsult Screenshot, Spark UI Screenshot/**: Directory containing plots and screenshots of results.
+- **Plots, Result Screenshot, Spark UI Screenshot/**: Directory containing plots and screenshots of results.
 
 ## Setup Instructions
 ### Prerequisites
@@ -21,14 +21,21 @@ This project aims to analyze large datasets using big data technologies, includi
    ```sh
    git clone https://github.com/your-username/BigData-Analysis-Using-PySpark.git
    cd BigData-Analysis-Using-PySpark
-2. pip install pyspark
+2. Install PySpark:
+   ```sh
+   pip install pyspark
 3. pip install pandas numpy matplotlib seaborn gcsfs scikit-learn
+   ``` sh
+   pip install pandas numpy matplotlib seaborn gcsfs scikit-learn
    
 ### Running the Project
 1. Navigate to the project directory.
 2. Ensure the dataset is accessible in the specified path in the pr3.py script. If using Google Cloud Storage, ensure the path is correctly set and the necessary permissions are in place.
 3. Run the pr3.py script : 
    python pr3.py
+
+### Data Source
+The dataset used in this project is stored in Google Cloud Platform (GCP). You can access the dataset from the following link: https://www.kaggle.com/datasets/joannpeeler/labeled-chess-positions-109m-csv-format/data
 
 ### Results 
 The results of the analysis are documented in the project report and presented in the PowerPoint presentation. Below are some key visualizations from the project:
@@ -43,7 +50,7 @@ Plot 6: Violin Plot of Eval by Result
 ### Project Structure
 BigData-Analysis-Using-PySpark/
 │
-├── images/
+├── Plot and Screenshots
 │   ├── eval_distribution.png
 │   ├── ply_vs_eval.png
 │   ├── ply_distribution.png
