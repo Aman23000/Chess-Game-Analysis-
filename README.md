@@ -4,7 +4,8 @@
 This project aims to analyze large datasets using big data technologies, including Resilient Distributed Datasets (RDDs) and PySpark. The objective is to gain insights into player strategy, game dynamics, and performance trends in chess games.
 
 ## Files
-- **pr3.py**: The main Python script for data processing and machine learning analysis using PySpark.
+- **spark_rdd.py**: The main Python script for data processing and machine learning analysis using PySpark.
+- **sark_rdd_visualization**: THis Python script is for Visualization include all the dataprocessing and ml analysis using Pyspark but mainly for Visualization.
 - **Amanjain_ProjectReport.pdf**: The project report detailing the objectives, methodology, results, and conclusions.
 - **Presentation_amanjain_cs777 copy.pptx**: The PowerPoint presentation summarizing the project.
 - **Plots, Result Screenshot, Spark UI Screenshot/**: Directory containing plots and screenshots of results.
